@@ -1,6 +1,6 @@
 
 from DAIDE import Order, Province, Arrangement, Unit
-from DAIDE import YES
+from DAIDE import YES, REJ
 from DAIDE import MTO, SUP, CVY, CTO, VIA
 from DAIDE import PRP, FCT
 from DAIDE import ALY
