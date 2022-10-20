@@ -16,4 +16,4 @@ jobs:
         run: git clone https://github.com/ALLAN-DIP/DAIDE.git && cd DAIDE && pip install -e .
 
       - name: Run test
-        run: ls -al && python tests/str_parse_str_test.py
+        run: python DAIDE/tests/str_parse_str_test.py
