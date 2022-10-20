@@ -1,0 +1,19 @@
+name: CI
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  docs:
+    name: test CI
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install
+        run: pip install -e .
+
+      - name: Run test
+        run: python tests/str_parse_str_test.py
