@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Install
-        run: pwd && ls -al && pip install -e .
+        run: cd .. && ls -al && pip install -e .
 
       - name: Run test
         run: python tests/str_parse_str_test.py
